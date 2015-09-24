@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Triominos</string>
+    <string name="title_player_detail">Player Info</string>
+    <string name="aidelist">Touch the + button to add a player. Long press a player\'s name to delete the player.</string>
+    <string name="aidedetail"><u><b>Add :</b></u> Add the sum of the three values
+    of the triangle to your score (empty fields will be considered equal to 0).
+    You can correct a mistake by adding/subtracting a value (to subtract put a \"-\" sign
+    in front of the value ex: -22).\n
+        \n
+    <u><b>Reset :</b></u> Reset your score.\n
+        \n
+    <u><b>Pick :</b></u> Pick up a tile and lose 5 points. If you have picked up three tiles and
+    still can\'t play, touch a 4th time to apply the 10 point penalty.\n
+        \n
+    <u><b>Hexagon :</b></u> Touch this button if you score a hexagon. Long press if you score a double
+    hexagon.\n
+        \n
+    <u><b>Bridge :</b></u> Touch this button if you score a bridge.</string>
+
+    <string name="aidebutton">Help</string>
+    <string name="addbutton">Add</string>
+    <string name="pickbutton">Pick</string>
+    <string name="resetbutton">Reset</string>
+    <string name="hexbutton">Hexagon</string>
+    <string name="bributton">Bridge</string>
+    <string name="dialoghint">Player Name</string>
+    <string name="negative">Cancel</string>
+    <string name="firstnb">1st value</string>
+    <string name="secondnb">2nd value</string>
+    <string name="thirdnb">3rd value</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Triominos</string>
+    <string name="title_player_detail">Infos Joueur</string>
+
+    <string name="aidedetail"><u><b>Ajouter :</b></u> Ajoutez la somme des trois valeurs
+    du triangle au score du joueur (les champs laissés vides seront considérés comme
+    égales à 0). Vous pouvez aussi réctifier une erreur en ajoutant/soustrayant une valeur
+    (pour soustraire mettez un tiret avant le numéro ex: -22).\n
+        \n
+    <u><b>RAZ :</b></u> Remettre le score à 0.\n
+        \n
+    <u><b>Piocher :</b></u> Piocher un triangle en échange de 5 points.\n
+     Au bout de la 3ème pioche si vous ne pouvez pas jouer, appuyer sur piocher une quatrième
+    fois pour déduire la pénalité de 10 points du score.\n
+        \n
+    <u><b>Hexagone :</b></u> Si vous complétez un hexagone appuyez sur ce bouton.
+    si vous complétez un double hexagone, restez appuyé sur ce bouton jusqu\'à l\'ajout des 60
+    points.\n
+        \n
+    <u><b>Pont :</b></u> Si vous complétez un pont appuyez sur ce bouton.</string>
+
+    <string name="aidelist">Appuyez sur + pour ajouter un joueur. Appuyez longuement sur un joueur pour
+    le supprimer.</string>
+
+    <string name="aidebutton">Aide</string>
+    <string name="addbutton">Ajouter</string>
+    <string name="pickbutton">Piocher</string>
+    <string name="resetbutton">RAZ</string>
+    <string name="hexbutton">Hexagone</string>
+    <string name="bributton">Pont</string>
+    <string name="dialoghint">Nom du Joueur</string>
+    <string name="negative">Annuler</string>
+    <string name="firstnb">1er numéro</string>
+    <string name="secondnb">2ème numéro</string>
+    <string name="thirdnb">3ème numéro</string>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<!--
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/player_list"
+    android:name="com.juju.triominos.PlayerListFragment" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp" tools:context=".PlayerListActivity"
+    tools:layout="@android:layout/list_content" />
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/player_list"
+        android:name="com.juju.triominos.PlayerListFragment" android:layout_width="match_parent"
+        android:layout_height="625dp" android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" tools:context=".PlayerListActivity"
+        tools:layout="@android:layout/list_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+         style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:id="@+id/aplayer" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="@string/aidebutton"
+            android:id="@+id/aide" />
+    </LinearLayout>
+
+</LinearLayout>

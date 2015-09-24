@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/player_detail_container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".PlayerDetailActivity" tools:ignore="MergeRootFrame" >
+
+    <Button
+        style="?android:attr/textAppearanceLarge"
+        tools:context=".PlayerDetailFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/bridge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="false"
+        android:text="@string/bributton"
+        android:textSize="20sp"
+        android:layout_gravity="right|bottom"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <Button
+        style="?android:attr/textAppearanceLarge"
+        tools:context=".PlayerDetailFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pick_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="false"
+        android:text="@string/pickbutton"
+        android:textSize="20sp"
+        android:layout_gravity="left|bottom"
+        android:nestedScrollingEnabled="false"
+        android:clickable="true"
+        android:enabled="true"
+        android:longClickable="true" />
+
+    <Button
+        style="?android:attr/textAppearanceLarge"
+        tools:context=".PlayerDetailFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/twos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="false"
+        android:text="@string/hexbutton"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/player_score"
+        android:layout_gravity="center"
+        android:textSize="100sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/player_detail"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addbutton"
+        android:id="@+id/add"
+        android:layout_gravity="right|top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetbutton"
+        android:id="@+id/reset"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aidebutton"
+        android:id="@+id/aide"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="50dp" />
+</FrameLayout>
