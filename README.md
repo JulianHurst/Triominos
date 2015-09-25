@@ -1,2 +1,2 @@
 # Triominos
-Android app for counting scores for the popular Triominos board game.
+Android app for easily counting scores for the popular Triominos board game.
